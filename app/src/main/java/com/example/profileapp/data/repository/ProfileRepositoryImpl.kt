@@ -2,8 +2,8 @@ package com.example.profileapp.data.repository
 
 import com.example.profileapp.data.database.dao.ProfileDao
 import com.example.profileapp.data.database.entities.ProfileEntity
-import com.example.profileapp.data.database.entities.toProfile
-import com.example.profileapp.data.database.entities.toProfileEntity
+import com.example.profileapp.data.database.mapper.toProfile
+import com.example.profileapp.data.database.mapper.toProfileEntity
 import com.example.profileapp.data.model.Profile
 import com.example.profileapp.ui.registration.RegistrationViewParams
 
