@@ -10,6 +10,8 @@ interface ProfileRepository {
 
     suspend fun getProfile(id: Int): Profile
 
+    suspend fun deleteProfile(id: Int)
+
     suspend fun updateProfile(profile: Profile)
 
     suspend fun getAllProfiles(): List<Profile>

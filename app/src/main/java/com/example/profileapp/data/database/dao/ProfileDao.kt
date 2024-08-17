@@ -19,7 +19,7 @@ interface ProfileDao {
     suspend fun updateProfile(profile: ProfileEntity)
 
     @Query("DELETE FROM profile WHERE id = profile.id")
-    suspend fun deleteProfile(profile: ProfileEntity)
+    suspend fun deleteProfile(id: Int)
 
     @Query("SELECT * FROM profile")
     suspend fun getAllProfiles(): List<ProfileEntity>

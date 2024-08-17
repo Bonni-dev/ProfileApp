@@ -20,6 +20,10 @@ class ProfileRepositoryImpl(
         return profileDao.getProfileById(id).toProfile()
     }
 
+    override suspend fun deleteProfile(id: Int) {
+        profileDao.deleteProfile(id)
+    }
+
     override suspend fun updateProfile(profile: Profile) {
         val profileEntity = profile.toProfileEntity()
         profileDao.updateProfile(profileEntity)
