@@ -1,4 +1,4 @@
-package com.example.profileapp.presentation.views
+package com.example.profileapp.presentation.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
