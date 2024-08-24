@@ -2,7 +2,7 @@ package com.example.profileapp.data.repository
 
 import com.example.profileapp.data.database.entities.ProfileEntity
 import com.example.profileapp.data.model.Profile
-import com.example.profileapp.ui.registration.RegistrationViewParams
+import com.example.profileapp.presentation.registration.RegistrationViewParams
 
 interface ProfileRepository {
 

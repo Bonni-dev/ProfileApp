@@ -1,4 +1,4 @@
-package com.example.profileapp.ui.registration
+package com.example.profileapp.presentation.registration
 
 data class RegistrationViewParams (
     var name: String = "",

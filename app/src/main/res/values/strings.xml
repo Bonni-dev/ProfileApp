@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ProfileApp</string>
+    <string name="label_name">Nome</string>
+    <string name="label_birth_date">Data de Nascimento</string>
+    <string name="label_city">Cidade</string>
+    <string name="label_doc">CPF</string>
 </resources>

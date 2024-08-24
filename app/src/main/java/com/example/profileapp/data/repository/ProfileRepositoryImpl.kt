@@ -5,7 +5,7 @@ import com.example.profileapp.data.database.entities.ProfileEntity
 import com.example.profileapp.data.database.mapper.toProfile
 import com.example.profileapp.data.database.mapper.toProfileEntity
 import com.example.profileapp.data.model.Profile
-import com.example.profileapp.ui.registration.RegistrationViewParams
+import com.example.profileapp.presentation.registration.RegistrationViewParams
 
 class ProfileRepositoryImpl(
     private val profileDao: ProfileDao
